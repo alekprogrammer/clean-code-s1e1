@@ -40,10 +40,12 @@
     margin: 0;
     padding: 0px;
 }
-.menu__item, .menu__title {
+.menu__item,
+.menu__title {
     list-style: none;
 }
-.menu__item-input, .menu__button{
+.menu__item-input,
+.menu__button{
     outline: none;
 }
 .menu__button {
@@ -131,7 +133,7 @@
 }
 
 /* Completed */
-#completed-tasks .menu__item-label {
+#completed-tasks > .menu__item-label {
     text-decoration: line-through;
     color: #888;
 }
