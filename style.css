@@ -4,28 +4,34 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .eisenhower-matrix-inf {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .eisenhower-matrix-inf__scheme {
     width: 100%;
 }
+
 .eisenhower-matrix-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.eisenhower-matrix-inf { text-align: center;
+  .eisenhower-matrix-inf {
+    text-align: center;
+  }
 }
-}
+
 .menu {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
 .menu__item-input,
 .menu__item-label,
 .menu_add-input {
@@ -33,21 +39,26 @@
     display: inline-block;
     flex-grow: 1;
 }
+
 .menu__add-button-and-input {
     display: flex;
 }
+
 .menu_ul {
     margin: 0;
     padding: 0px;
 }
+
 .menu__item,
 .menu__title {
     list-style: none;
 }
+
 .menu__item-input,
 .menu__button{
     outline: none;
 }
+
 .menu__button {
     background: none;
     border: 0px;
@@ -57,9 +68,11 @@
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .menu__button:hover {
     color: #3a3a3a;
 }
+
 /* Heading */
 .menu__title,
 .menu__add-title {
@@ -71,6 +84,7 @@
     margin: 0;
     text-transform: uppercase;
 }
+
 .menu__item-input {
     margin: 0;
     font-size: 18px;
@@ -83,6 +97,7 @@
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 .menu__item-input:focus {
     color: #333;
 }
@@ -107,6 +122,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .menu__item > * {
     vertical-align: middle;
 }
@@ -114,21 +130,25 @@
 .menu__checkbox {
     margin: 0 10px;
 }
+
 .menu__item-label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
+
 .menu__item > .menu__item-input {
     width: 226px;
 }
-.menu__button.button_delete img {
+
+.menu__delete-button-img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.menu__button.button_delete img:hover {
+
+.menu__delete-button-img:hover {
     transform: rotateZ(0);
 }
 
